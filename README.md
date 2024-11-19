@@ -1,7 +1,5 @@
 # Flappy Bird Game (Scala)
 
-Language: Scala
-
 Environment: Intellij IDEA, SceneBuilder
 
 Requirement: Java jdk 8 (1.8), Scala 2.12
