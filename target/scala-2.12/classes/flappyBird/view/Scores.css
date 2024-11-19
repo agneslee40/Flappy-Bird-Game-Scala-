@@ -1,0 +1,18 @@
+.bodybg {
+    -fx-background-image:url("../../images/scoreBg.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.label {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #163832;
+    -fx-font-size: 49pt;
+}
+
+#ScoreContent {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 30pt;
+    /*-fx-text-fill: white;*/
+    -fx-text-fill: #163832;
+}
+

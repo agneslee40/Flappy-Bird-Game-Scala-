@@ -1,0 +1,19 @@
+.bodybg {
+    -fx-background-image:url("../../images/flappybirdbg.gif");
+    -fx-background-size: 100% 100%;
+}
+
+
+.button {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 28px;
+    -fx-background-color:#45425A;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #45425A;
+    -fx-font-size: 28px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}

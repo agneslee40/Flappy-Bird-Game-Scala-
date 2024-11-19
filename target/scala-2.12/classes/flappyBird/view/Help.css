@@ -1,0 +1,37 @@
+.bodybg {
+    -fx-background-image:url("../../images/flappybirdbg.gif");
+    -fx-background-size: 100% 100%;
+}
+
+.label {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #003459;
+}
+
+#title {
+    -fx-font-size: 65;
+}
+
+#subtitle {
+    -fx-font-size: 30;
+}
+
+#content {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 18;
+    -fx-text-alignment: center;
+}
+
+.button {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 28px;
+    -fx-background-color:#003459;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #003459;
+    -fx-font-size: 28px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}

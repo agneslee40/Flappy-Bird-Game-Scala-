@@ -1,0 +1,31 @@
+.bodybg {
+    -fx-background-image:url("../../images/gameOverBg.png");
+    -fx-background-size: 100% 100%;
+}
+
+
+#title {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #27233A;
+    -fx-font-size: 50;
+}
+
+#content {
+    -fx-font-family: "Britannic Bold";
+    -fx-text-fill: #27233A;
+    -fx-font-size: 30;
+}
+
+.button {
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 23px;
+    -fx-background-color:#505168;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}
+
+.button:hover {
+    -fx-background-color: #505168;
+    -fx-font-size: 23px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.37), 10, 0.37, 1, 1);
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="800.0" maxWidth="500.0" minHeight="800.0" minWidth="500.0" prefHeight="800.0" prefWidth="500.0" styleClass="bodybg" stylesheets="@Settings.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flappyBird.view.SettingsController">
+   <children>
+      <Label id="title" alignment="CENTER" contentDisplay="CENTER" layoutX="233.0" layoutY="113.0" text="Settings" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="60.0">
+         <font>
+            <Font name="Bodoni MT Black" size="34.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="56.0" layoutY="353.0" prefHeight="152.0" prefWidth="380.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="60.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label id="content" alignment="CENTER" contentDisplay="CENTER" prefHeight="51.0" prefWidth="201.0" text="Music Volume: " GridPane.halignment="CENTER" GridPane.valignment="TOP" />
+            <Slider fx:id="musicSlider">
+               <GridPane.margin>
+                  <Insets top="70.0" />
+               </GridPane.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Slider>
+         </children>
+      </GridPane>
+      <Button layoutX="201.0" layoutY="611.0" mnemonicParsing="false" onAction="#home" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="87.0" fitWidth="73.0" layoutX="214.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/musicVolumeIcon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
