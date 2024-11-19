@@ -2,7 +2,9 @@
 
 Language: Scala
 
-Tools: SceneBuilder, ScalaFX
+Environment: Intellij IDEA, SceneBuilder
+
+Requirement: Java jdk 8 (1.8), Scala 2.12
 
 ## What It’s All About
 Love challenges? This Flappy Bird clone lets you guide a cute bird through tricky green pipes while trying to beat your high score. It’s fun, addictive, and a little frustrating (in the best way possible).
